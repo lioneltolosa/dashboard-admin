@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
+import { IncrementComponent } from '../components/increment/increment.component';
+
 
 
 
@@ -19,7 +21,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
         PagesComponent,
         DashboardComponent,
         ProgressComponent,
-        Graficas1Component
+        Graficas1Component,
+        IncrementComponent
     ],
     exports: [
         DashboardComponent,
