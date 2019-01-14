@@ -8,10 +8,13 @@ import { PagesComponent } from './pages.component';
 
 import { FormsModule } from '@angular/forms';
 
+import { ChartsModule } from 'ng2-charts';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { IncrementComponent } from '../components/increment/increment.component';
+import { DonnutGraphicComponent } from '../components/donnut-graphic/donnut-graphic.component';
 
 
 
@@ -22,7 +25,8 @@ import { IncrementComponent } from '../components/increment/increment.component'
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        IncrementComponent
+        IncrementComponent,
+        DonnutGraphicComponent
     ],
     exports: [
         DashboardComponent,
@@ -32,7 +36,8 @@ import { IncrementComponent } from '../components/increment/increment.component'
     imports: [
         SharedModule,
         PAGES_ROUTES,
-        FormsModule
+        FormsModule,
+        ChartsModule
     ]
 
 })
