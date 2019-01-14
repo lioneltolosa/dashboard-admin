@@ -12,9 +12,4 @@ export class ProgressComponent {
 
   constructor() { }
 
-  // actualizar( event: number ) {
-  //   console.log('Evento', event);
-  //   this.porcentaje1 = event;
-  // }
-
 }
