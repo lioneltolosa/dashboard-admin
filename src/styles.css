@@ -3,3 +3,7 @@ button {
     border-radius: 0 !important;
     height: 38px;
 }
+
+#themecolors {
+    cursor: pointer;
+}

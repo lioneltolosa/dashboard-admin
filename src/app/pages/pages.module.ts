@@ -15,6 +15,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { IncrementComponent } from '../components/increment/increment.component';
 import { DonnutGraphicComponent } from '../components/donnut-graphic/donnut-graphic.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -26,7 +27,8 @@ import { DonnutGraphicComponent } from '../components/donnut-graphic/donnut-grap
         ProgressComponent,
         Graficas1Component,
         IncrementComponent,
-        DonnutGraphicComponent
+        DonnutGraphicComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
