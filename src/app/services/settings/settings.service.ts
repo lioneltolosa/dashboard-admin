@@ -1,6 +1,5 @@
 import { Injectable, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
-import { tick } from '@angular/core/src/render3';
 
 @Injectable({
   providedIn: 'root'
@@ -17,18 +16,18 @@ export class SettingsService {
   }
 
   guardarAjustes() {
-    console.log('Guardado en el LocalStorage');
+    // console.log('Guardado en el LocalStorage');
     localStorage.setItem('ajustes', JSON.stringify( this.ajustes));
   }
 
   cargarAjustes() {
     if ( localStorage.getItem('ajustes')) {
       this.ajustes = JSON.parse(localStorage.getItem('ajustes'));
-      console.log('Cargando de Ajustes');
+      // console.log('Cargando de Ajustes');
       this.aplicarTema ( this.ajustes.tema);
     } else {
       this.aplicarTema ( this.ajustes.tema);
-      console.log('Usando valores por defecto');
+      // console.log('Usando valores por defecto');
     }
   }
 
