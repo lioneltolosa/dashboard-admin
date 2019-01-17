@@ -16,6 +16,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { IncrementComponent } from '../components/increment/increment.component';
 import { DonnutGraphicComponent } from '../components/donnut-graphic/donnut-graphic.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -39,7 +40,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         SharedModule,
         PAGES_ROUTES,
         FormsModule,
-        ChartsModule
+        ChartsModule,
+        CommonModule
     ]
 
 })

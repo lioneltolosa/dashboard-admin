@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject  } from '@angular/core';
-import { DOCUMENT } from '@angular/platform-browser';
 import { SettingsService } from '../../services/service.index';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-account-settings',
