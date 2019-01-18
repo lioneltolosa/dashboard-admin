@@ -17,6 +17,7 @@ import { IncrementComponent } from '../components/increment/increment.component'
 import { DonnutGraphicComponent } from '../components/donnut-graphic/donnut-graphic.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { CommonModule } from '@angular/common';
+import { RadarComponent } from '../components/radar/radar.component';
 
 
 
@@ -29,7 +30,8 @@ import { CommonModule } from '@angular/common';
         Graficas1Component,
         IncrementComponent,
         DonnutGraphicComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        RadarComponent
     ],
     exports: [
         DashboardComponent,
