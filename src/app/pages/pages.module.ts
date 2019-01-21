@@ -18,6 +18,8 @@ import { DonnutGraphicComponent } from '../components/donnut-graphic/donnut-grap
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { CommonModule } from '@angular/common';
 import { RadarComponent } from '../components/radar/radar.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -31,7 +33,9 @@ import { RadarComponent } from '../components/radar/radar.component';
         IncrementComponent,
         DonnutGraphicComponent,
         AccountSettingsComponent,
-        RadarComponent
+        RadarComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
